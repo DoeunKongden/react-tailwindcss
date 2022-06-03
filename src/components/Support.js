@@ -1,6 +1,5 @@
 import React from 'react'
 import SupportImage from '../assets/support.jpg'
-import { AnimationWrapper } from 'react-hover-animation'
 
 function Support() {
   return (
@@ -19,7 +18,6 @@ function Support() {
         </div>
         <div name="White board and icon" className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8  gap-y-16 px-4 pt-12 sm:pt-20 text-black '>
 
-          <AnimationWrapper>
             <div id='Card' className='h-[400px]  relative bg-white rounded-xl shadow-2xl'>
               <div className='p-8'>
                 <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'
@@ -41,9 +39,8 @@ function Support() {
                 </p>
               </div>
             </div>
-          </AnimationWrapper>
 
-          <AnimationWrapper>
+
             <div id='Card' className='h-[400px]  relative bg-white rounded-xl shadow-2xl'>
               <div className='p-8'>
                 <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'
@@ -65,9 +62,8 @@ function Support() {
                 </p>
               </div>
             </div>
-          </AnimationWrapper>
 
-          <AnimationWrapper>
+
             <div id='Card' className='h-[400px]  relative  bg-white rounded-xl shadow-2xl'>
               <div className='p-8'>
                 <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'
@@ -89,7 +85,7 @@ function Support() {
                 </p>
               </div>
             </div>
-          </AnimationWrapper>
+
 
         </div>
       </div>
